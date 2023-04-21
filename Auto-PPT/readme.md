@@ -1,5 +1,4 @@
-![image](https://user-images.githubusercontent.com/108644811/233665857-5f740a14-54b2-4adb-9247-72e1cee8ae85.png)
-
+![image](https://user-images.githubusercontent.com/108644811/233672869-3033f4b7-3896-49a8-b3ff-f0288f60a82e.png)
 
 
 # 🔴 1. 설치방법
