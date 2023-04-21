@@ -41,6 +41,8 @@ with open('Absolutely.txt', 'r') as f:
 
         # 텍스트 상자 생성
         textbox = slide.shapes.add_textbox(left=Cm(2), top=Cm(2), width=Cm(24), height=Cm(18))
+        #textbox = slide.shapes.add_textbox(left=Cm(2), top=Cm(2), width=prs.slide_width, height=prs.slide_height)
+
         text_frame = textbox.text_frame
 
         # 텍스트 상자에 텍스트 추가
@@ -62,11 +64,11 @@ with open('Absolutely.txt', 'r') as f:
         text_frame.vertical_anchor = MSO_ANCHOR.MIDDLE
         text_frame.alignment = MSO_ANCHOR.MIDDLE
         text_frame.word_wrap = True
-        text_frame.left = (prs.slide_width - textbox.width) / 2
+        text_frame.left = (prs.slide_width - text_frame.width) / 2
 
         # 텍스트 상자를 슬라이드 정중앙으로 이동
         textbox.left = int((prs.slide_width - textbox.width) / 2)
         textbox.top = int((prs.slide_height - textbox.height) / 2)
 
 # 파워포인트 파일 저장
-prs.save('ddddddd.pptx')
+prs.save('presentation12241FDD31.pptx')
